@@ -2,3 +2,4 @@
 Webapplikation for better News Search Internaitonal with NewsAPI.
 
 Matteo Miggiano
+Abina Sureskumar
