@@ -1,0 +1,138 @@
+html,
+body {
+    box-sizing: content-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #121212 !important;
+    color: #fff !important;
+}
+
+.arrowBack {
+    position: relative;
+}
+
+#up {
+    position: absolute;
+    width: 3vw !important;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    position: fixed;
+    display: none;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #121212 !important;
+    color: #fff !important;
+    /* position: fixed !important; */
+}
+
+.logo {
+    width: 80px;
+}
+
+.filter-btn {
+    padding-left : 1rem !important;
+    padding-right: 1rem !important;
+    border-radius: 10px !important;
+}
+
+.rounded-btn {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+    border-radius: 30px !important;
+}
+
+.transparent {
+    background-color: transparent !important;
+    border: transparent !important;
+    border-radius: 30px !important;
+}
+
+.transparent:focus {
+    background-color: transparent !important;
+    border: transparent !important;
+    border-radius: 30px !important;
+    border: 0;
+}
+
+/* input placeholder color */
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #eee !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #eee !important;
+}
+
+:-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #eee !important;
+}
+
+.dropdown {
+    min-width: 6rem !important;
+}
+
+.dropdown-menu {
+    background-color: #121212 !important;
+
+    min-width: 6rem !important;
+    border-radius: 10px !important;
+    transform: scale(0.95, 0.95);
+    box-shadow: 2px 2px 15px 1px #cacaca42, -2px -2px 15px 1px #a1a1a142;
+}
+
+.dropdown-item {
+    border-radius: 5px !important;
+}
+
+.dropdown-item:hover {
+    /* color: black !important; */
+    background-color: #2F2F2F !important;
+}
+
+.main-card {
+    width: 50vw !important;
+    height: max-content !important; 
+    margin-top: 150px !important;
+    box-sizing: content-box !important;
+    padding: 30px !important;
+}
+
+.card {
+    border-radius: 30px !important;
+}
+
+.mini-card {
+    background-color: rgb(33, 33, 33) !important;
+    width: 47vw;
+    height: 20vh;
+    /* margin-top: 20px !important; */
+    /* transform: scale(0.95, 0.95); */
+    box-shadow: 2px 2px 15px 1px #031b6b42, -2px -2px 15px 1px #031b6b42;
+    transition: 0.3s ease-in-out;
+}
+
+.marginBottom {
+    margin-bottom: 30px !important;
+}
+
+.mini-card:hover {
+    transform: scale(1.03);
+}
+
+.texttt {
+    color: rgb(255, 0, 0) !important;
+}

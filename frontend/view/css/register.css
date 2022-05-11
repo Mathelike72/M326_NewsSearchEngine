@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.599),rgba(0, 0, 0, 0.606)), url('./view/images/login_bg.jpg');
+    min-height: 100%;
+    min-width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 20px !important;
+    background-color: #ffffff2b !important;
+    width: 40vw !important;
+    height: 75vh !important;
+    box-shadow: 2px 2px 15px 1px #ffffff82, -2px -2px 15px 1px #ffffff80;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.link {
+    color: rgb(255, 255, 255);
+}
+
+.link:hover {
+    color: rgb(255, 255, 255);
+}
