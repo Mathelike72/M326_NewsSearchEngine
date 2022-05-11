@@ -1,5 +1,6 @@
 # M326_NewsSearchEngine
-Webapplikation for better News Search Internaitonal with NewsAPI.
+Webapplication on which you can read articles.
 
 Matteo Miggiano
 Abina Sureskumar
+Luka Joksimovic
