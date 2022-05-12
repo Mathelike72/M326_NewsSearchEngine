@@ -2,6 +2,7 @@ html,
 body {
     box-sizing: content-box;
     margin: 0;
+    margin-top: 0 !important;
     scroll-behavior: smooth;
     width: 100%;
     height: 100%;
@@ -30,8 +31,8 @@ body {
 
 nav {
     background-color: #121212 !important;
+    /* background-color: rgba(255, 255, 255, 0.027) !important; */
     color: #fff !important;
-    /* position: fixed !important; */
 }
 
 .logo {
@@ -39,7 +40,7 @@ nav {
 }
 
 .filter-btn {
-    padding-left : 1rem !important;
+    padding-left: 1rem !important;
     padding-right: 1rem !important;
     border-radius: 10px !important;
 }
@@ -63,24 +64,6 @@ nav {
     border: 0;
 }
 
-/* input placeholder color */
-
-::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #eee !important;
-    opacity: 1 !important; /* Firefox */
-}
-
-:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: #eee !important;
-}
-
-:-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: #eee !important;
-}
-
 .dropdown {
     min-width: 6rem !important;
 }
@@ -89,7 +72,7 @@ nav {
     background-color: #121212 !important;
 
     min-width: 6rem !important;
-    border-radius: 10px !important;
+    /* border-radius: 10px !important; */
     transform: scale(0.95, 0.95);
     box-shadow: 2px 2px 15px 1px #cacaca42, -2px -2px 15px 1px #a1a1a142;
 }
@@ -99,13 +82,12 @@ nav {
 }
 
 .dropdown-item:hover {
-    /* color: black !important; */
     background-color: #2F2F2F !important;
 }
 
 .main-card {
     width: 50vw !important;
-    height: max-content !important; 
+    height: max-content !important;
     margin-top: 150px !important;
     box-sizing: content-box !important;
     padding: 30px !important;
@@ -119,8 +101,6 @@ nav {
     background-color: rgb(33, 33, 33) !important;
     width: 47vw;
     height: 20vh;
-    /* margin-top: 20px !important; */
-    /* transform: scale(0.95, 0.95); */
     box-shadow: 2px 2px 15px 1px #031b6b42, -2px -2px 15px 1px #031b6b42;
     transition: 0.3s ease-in-out;
 }
@@ -131,8 +111,4 @@ nav {
 
 .mini-card:hover {
     transform: scale(1.03);
-}
-
-.texttt {
-    color: rgb(255, 0, 0) !important;
 }
